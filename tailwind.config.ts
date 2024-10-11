@@ -16,6 +16,7 @@ const config: Config = {
         c5: "#C1E8FF",
         cwhite: "#F5F5F5",
         cblack: "#262626",
+        coffwhite: "#F3F6FF",
       },
       fontFamily: {
         futura: ["Futura", "sans-serif"],
