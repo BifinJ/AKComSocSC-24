@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AKComSocSC-'24",
-  description: "All Kerala Comsoc Student Conference 24",
+  description: "All Kerala Communications Society Student Conclave 24",
 };
 
 export default function RootLayout({
