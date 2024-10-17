@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-c1 text-white pt-8">
+    <footer className="bg-c2 text-white pt-8">
       <div className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-2.5 md:py-12 md:mb-20">
         <div className=" w-full md:w-3/5 text-center md:text-left"> 
           <h2 className=" font-futura font-bold text-c5 text-2xl md:text-5xl sm:text-4xl xs:text-3xl">AKComSocSC-24</h2>
@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full bg-c2 bg-opacity-20 py-4 text-center text-c4 font-open">
+      <div className="w-full bg-[#0d3673] bg-opacity-10 py-4 text-center text-c4 font-open">
         <p className=" text-xs md:text-sm">2024 ©AKComSocSC&apos;24. All Rights Reserved.</p>
         <p className=" text-xs md:text-sm">Designed and Developed by AKComSocSC&apos;24 WebTeam</p>
       </div>

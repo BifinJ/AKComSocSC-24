@@ -19,12 +19,12 @@ export default function Header() {
         <HeaderLink link="Schedule" />
         <HeaderLink link="Gallery" />
         <HeaderLink link="Contact" />
-        <RegisterButton />
+        <RegisterButton text="Register"/>
       </nav>
 
       {/* Register button and hamburger icon for mobile */}
       <div className=" flex flex-row items-center justify-center gap-3">
-          <RegisterButton className="md:hidden block" />
+          <RegisterButton text="Register" className="md:hidden block" />
           <div className="md:hidden text-2xl">
             {open ? (
               <MdClose
