@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import RegisterButton from "./RegisterButton";
@@ -9,9 +9,9 @@ export default function Header() {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <header className="z-[9999] fixed top-0 left-0 w-full h-20 flex items-center justify-between px-4 py-2 bg-c1 text-coffwhite">
+    <header className="z-[9999] sticky top-0 left-0  flex items-center justify-between px-4 py-2 bg-c1 text-coffwhite">
       <div className=" w-1/4 md:w-2/5 text-xl font-extrabold">LOGOS</div>
-      
+
       {/* Links for larger screens */}
       <nav className=" w-3/4 md:w-3/5 hidden md:flex items-center justify-between gap-4">
         <HeaderLink link="Hero" />
@@ -19,27 +19,27 @@ export default function Header() {
         <HeaderLink link="Schedule" />
         <HeaderLink link="Gallery" />
         <HeaderLink link="Contact" />
-        <RegisterButton text="Register"/>
+        <RegisterButton text="Register" />
       </nav>
 
       {/* Register button and hamburger icon for mobile */}
       <div className=" flex flex-row items-center justify-center gap-3">
-          <RegisterButton text="Register" className="md:hidden block" />
-          <div className="md:hidden text-2xl">
-            {open ? (
-              <MdClose
-                onClick={() => setOpen(false)}
-                className="cursor-pointer"
-                aria-label="Close menu"
-              />
-            ) : (
-              <GiHamburgerMenu
-                onClick={() => setOpen(true)}
-                className="cursor-pointer"
-                aria-label="Open menu"
-              />
-            )}
-          </div>
+        <RegisterButton text="Register" className="md:hidden block" />
+        <div className="md:hidden text-2xl">
+          {open ? (
+            <MdClose
+              onClick={() => setOpen(false)}
+              className="cursor-pointer"
+              aria-label="Close menu"
+            />
+          ) : (
+            <GiHamburgerMenu
+              onClick={() => setOpen(true)}
+              className="cursor-pointer"
+              aria-label="Open menu"
+            />
+          )}
+        </div>
       </div>
 
       {/* Mobile menu */}

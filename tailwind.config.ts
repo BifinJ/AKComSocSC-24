@@ -18,6 +18,10 @@ const config: Config = {
         cblack: "#262626",
         coffwhite: "#F3F6FF",
       },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(270deg, #C1E8FF 3.33%, #5483B3 94.45%, rgba(125, 160, 202, 0.95) 106.87%)",
+      },
       fontFamily: {
         futura: ["Futura", "sans-serif"],
         open: ["Open Sans", "Arial", "sans-serif"],
