@@ -14,7 +14,7 @@ const Timeline: React.FC = () => {
   return (
     <div className="bg-[#051D3F] w-dvw min-h-dvh py-8 lg:py-24 px-5 lg:px-32">
       <SectionHeading heading="Timeline" />
-      <div className="hidden min-h-screen md:flex flex-col items-center justify-center mt-20 mb-20">
+      <div className="hidden min-h-screen md:flex flex-col items-center justify-center mt-10 mb-10">
         <div className="relative w-full md:w-3/4 py-10">
           <div className="absolute top-1/2 left-0 w-full h-1 bg-blue-300" />
           <div className="flex justify-between relative z-10">
@@ -27,17 +27,17 @@ const Timeline: React.FC = () => {
                 </div>
                 {index % 2 === 0 ? (
                   <>
-                    <p className="text-coffwhite font-open text-lg md:text-base justify-center font-normal absolute -top-20 whitespace-nowrap">{event.date}</p>
-                    <div className="absolute w-1 h-[360px] border-l-2 border-dotted border-blue-300 top-[40px]" />
-                    <h4 className="text-coffwhite font-open font-bolder absolute top-[420px] whitespace-nowrap">{event.title}</h4>
-                    <div className="absolute top-[400px] left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-blue-300" />
+                    <p className="text-coffwhite font-open text-2xl justify-center font-normal absolute -top-20 whitespace-nowrap">{event.date}</p>
+                    <div className="absolute w-1 h-[250px] border-l-2 border-dotted border-blue-300 top-[40px]" />
+                    <h4 className="text-coffwhite font-open text-xl absolute top-[310px] whitespace-nowrap">{event.title}</h4>
+                    <div className="absolute top-[290px] left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-blue-300" />
                   </>
                 ) : (
                   <>
-                    <h4 className="text-coffwhite font-open font-bolder absolute -top-[420px] whitespace-nowrap">{event.title}</h4>
-                    <div className="absolute bottom-[40px] w-1 h-[340px] border-l-2 border-dotted border-blue-300" />
-                    <p className="text-coffwhite font-open text-sm md:text-base font-normal absolute top-12 whitespace-nowrap">{event.date}</p>
-                    <div className="absolute bottom-[380px] left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-blue-300" />
+                    <h4 className="text-coffwhite font-open text-xl absolute -top-[310px] whitespace-nowrap">{event.title}</h4>
+                    <div className="absolute bottom-[40px] w-1 h-[220px] border-l-2 border-dotted border-blue-300" />
+                    <p className="text-coffwhite font-open text-2xl font-normal absolute top-12 whitespace-nowrap">{event.date}</p>
+                    <div className="absolute bottom-[260px] left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-blue-300" />
                   </>
                 )}
 
