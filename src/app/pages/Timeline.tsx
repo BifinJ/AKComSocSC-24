@@ -53,8 +53,8 @@ const Timeline: React.FC = () => {
             {events.map((event, index) => (
               <div key={index} className="relative flex flex-col items-center">
                 <div className="relative z-10">
-                  <div className="w-20 h-20 rounded-full border-4 border-blue-300 flex items-center justify-center">
-                    <div className="w-12 h-12 rounded-full bg-blue-300" />
+                  <div className="w-16 h-16 rounded-full border-4 border-blue-300 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-blue-300" />
                   </div>
                 </div>
                 <p className="text-coffwhite font-open text-lg font-normal mt-2">
@@ -64,7 +64,7 @@ const Timeline: React.FC = () => {
                   {event.title}
                 </h4>
                 {index < events.length - 1 && (
-                  <div className="w-1 h-32 border-l-2 border-dotted border-blue-300 mt-2" />
+                  <div className="w-1 h-24 border-l-2 border-dotted border-blue-300 mt-2" />
                 )}
               </div>
             ))}
