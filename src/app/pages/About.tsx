@@ -5,14 +5,10 @@ export default function About() {
   return (
     <section className="bg-c1 w-dvw min-h-dvh py-8 lg:py-24 px-5 lg:px-32 flex flex-col items-center justify-center text-center">
       <SectionHeading heading="About Us"/>
-      <p className=" text-cwhite font-open text-sm md:text-base font-normal mt-8 ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        scelerisque, risus id elementum facilisis, urna felis vulputate
-        nunc, at bibendum ipsum lectus in velit. Nulla facilisi. Quisque
-        vestibulum, arcu at semper cursus, metus velit semper neque, non
-        ultricies felis dui vel felis. Sed vel neque et ligula facilisis
-        laoreet. Pellentesque habitant morbi tristique senectus et netus
-        et malesuada fames ac turpis egestas.
+      <p className=" text-cwhite font-open text-sm md:text-base font-normal mt-8 text-justify ">
+      AKComSocSC, flagship event of IEEE ComSoc Kerala Chapter, offers a memorable experience for students, researchers, and industry professionals. 
+      Through hands-on Workshops and talk sessions, you'll gain practical skills and insights into the latest advancements in communications technology.
+      Join us to discover the exciting world of communications technology and enhance your knowledge. 
       </p>
       <AboutCard />
     </section>

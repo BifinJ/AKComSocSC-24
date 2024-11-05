@@ -4,7 +4,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "lorem Ipsum dolor",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC."
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
@@ -40,7 +40,7 @@ export default function AboutCard() {
                 <h3 className="text-lg font-semibold relative">
                 {card.title}
                 </h3>
-                <p className="text-sm relative">
+                <p className="text-sm relative text-justify">
                 {card.content}
                 </p>
             </div>
