@@ -7,7 +7,7 @@ export default function About() {
       <SectionHeading heading="About Us"/>
       <p className=" text-cwhite font-open text-sm md:text-base font-normal mt-8 text-justify ">
       AKComSocSC, flagship event of IEEE ComSoc Kerala Chapter, offers a memorable experience for students, researchers, and industry professionals. 
-      Through hands-on Workshops and talk sessions, you'll gain practical skills and insights into the latest advancements in communications technology.
+      Through hands-on Workshops and talk sessions, you will gain practical skills and insights into the latest advancements in communications technology.
       Join us to discover the exciting world of communications technology and enhance your knowledge. 
       </p>
       <AboutCard />
