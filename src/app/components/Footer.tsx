@@ -7,7 +7,7 @@ export default function Footer() {
         <div className=" w-full md:w-3/5 text-center md:text-left"> 
           <h2 className=" font-futura font-bold text-c5 text-2xl md:text-5xl sm:text-4xl xs:text-3xl">AKComSocSC-24</h2>
           <p className="text-sm mt-2 max-w-l font-open pt-4 text-justify md:text-left">
-            Join us at AKComSocSC'24, where innovation meets collaboration. Explore the latest advancements in communications technology, network with industry experts, and unleash your potential. Shaping the future of communications, together.
+            Join us at AKComSocSC&apos;24, where innovation meets collaboration. Explore the latest advancements in communications technology, network with industry experts, and unleash your potential. Shaping the future of communications, together.
           </p>
         </div>
         <div className=" w-full md:w-2/5 flex flex-col items-center justify-center text-center mt-8 md:mt-0">
