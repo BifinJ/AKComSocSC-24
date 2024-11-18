@@ -25,7 +25,7 @@ const Hero = () => {
         <div className=" px-5 py-6 mt-10  border-white rounded-3xl md:px-8 sm:py-6 sm:mt-16">
           <div className='flex items-center'>
             <Image alt='clock-icon' src={clock} className='size-5 sm:size-6 md:size-7 mr-1 sm:mr-3'/>
-            <p className="text-basis sm:text-xl md:text-2xl font-semibold text-coffwhite">December 13 - 14, 2024</p>
+            <p className="text-basis sm:text-xl md:text-2xl font-semibold text-coffwhite">December 21 - 22, 2024</p>
           </div>
  
           <div className='flex items-center mt-2 md:mt-5'>
