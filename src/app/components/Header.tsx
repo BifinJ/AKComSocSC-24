@@ -9,14 +9,16 @@ export default function Header() {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <header className="z-[9999] sticky top-0 left-0  flex items-center justify-between px-4 py-2 bg-c1 text-coffwhite">
-      <div className=" w-1/4 md:w-2/5 text-xl font-extrabold">LOGOS</div>
+    <header className="z-[9999] sticky top-0 left-0  flex items-center justify-between px-4 py-3 bg-c1 text-coffwhite">
+      <div className=" w-1/2 md:w-2/5 text-xl font-extrabold">
+        <img src="/images/AKComSocSC.png" alt="" className=" w-2/3 md:w-1/3" />
+      </div>
 
       {/* Links for larger screens */}
-      <nav className=" w-3/4 md:w-3/5 hidden md:flex items-center justify-between gap-4">
+      <nav className=" w-1/2 md:w-3/5 hidden md:flex items-center justify-between gap-4">
         <HeaderLink link="Hero" />
         <HeaderLink link="About" />
-        <HeaderLink link="Schedule" />
+        <HeaderLink link="Sponsors" />
         <HeaderLink link="Gallery" />
         <HeaderLink link="Contact" />
         <RegisterButton text="Register" />

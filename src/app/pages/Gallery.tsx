@@ -26,10 +26,10 @@ export default function GallerySection() {
 
   if (width > 1024) {
     return (
-      <section className="min-h-screen bg-c1 flex items-center justify-center px-36 py-8">
+      <section id="Gallery" className="min-h-screen bg-c1 flex items-center justify-center px-36 py-8">
         <div className="grid grid-cols-5 h-screen w-screen gap-1">
           <div className="col-span-1 grid grid-rows-3 gap-1">
-            {[0, 1, 2].map((index) => (
+            {[3, 5, 2].map((index) => (
               <div className="w-full h-full relative overflow-hidden group" key={index}>
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-300 ease-in-out group-hover:scale-105"
@@ -52,7 +52,7 @@ export default function GallerySection() {
               <div className="col-span-2 w-full h-full relative overflow-hidden group">
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-300 ease-in-out group-hover:scale-105"
-                  style={{ backgroundImage: `url(${images[1]})` }}
+                  style={{ backgroundImage: `url(${images[4]})` }}
                 ></div>
                 <div className="absolute inset-0 bg-[#052659] opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
               </div>
@@ -62,7 +62,7 @@ export default function GallerySection() {
               <div className="col-span-3 w-full h-full relative overflow-hidden group">
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-300 ease-in-out group-hover:scale-105"
-                  style={{ backgroundImage: `url(${images[2]})` }}
+                  style={{ backgroundImage: `url(${images[1]})` }}
                 ></div>
                 <div className="absolute inset-0 bg-[#052659] opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
               </div>
@@ -77,14 +77,14 @@ export default function GallerySection() {
     );
   } else if (width > 640 && width <= 1024) {
     return (
-      <section className="min-h-screen bg-c1 flex items-center justify-center px-10 md:px-20 py-8">
+      <section id="Gallery" className="min-h-screen bg-c1 flex items-center justify-center px-10 md:px-20 py-8">
         <div className="grid grid-rows-8 h-screen w-screen gap-1">
           <div className="row-span-3 grid grid-cols-3 gap-1">
             {[0, 1, 2].map((index) => (
               <div className="w-full h-full relative overflow-hidden group" key={index}>
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-300 ease-in-out group-hover:scale-105"
-                  style={{ backgroundImage: `url(${images[index]})` }}
+                  style={{ backgroundImage: `url(${images[index]})`, backgroundPosition: "center" }}
                 ></div>
                 <div className="absolute inset-0 bg-[#052659] opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
               </div>
@@ -128,7 +128,7 @@ export default function GallerySection() {
     );
   } else if (width <= 640) {
     return (
-      <section className="min-h-dvh w-dvw bg-c1 flex flex-col items-center justify-start gap-6 px-6 py-8">
+      <section id="Gallery" className="min-h-dvh w-dvw bg-c1 flex flex-col items-center justify-start gap-6 px-6 py-8">
         <SectionHeading heading="Gallery" />
         <div className="w-full flex flex-col items-center gap-4">
           {images.map((image: string, index: number) => (

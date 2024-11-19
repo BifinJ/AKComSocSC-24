@@ -3,18 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Futura';
-    src: url('/fonts/FuturaBold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Futura";
+  src: url("/fonts/FuturaBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-::-webkit-scrollbar{
-    width: 0;
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

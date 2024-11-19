@@ -34,7 +34,7 @@ const Hero = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const heroSection = document.getElementById('hero-section');
+      const heroSection = document.getElementById('Hero');
       if (heroSection) {
         const scrollY = window.scrollY;
        heroSection.style.backgroundPosition = `center ${scrollY * 0.5}px`;
@@ -49,7 +49,7 @@ const Hero = () => {
  
   return (
     <section
-    id="hero-section"
+    id="Hero"
     className="font-futura bg-[url(/images/heromob5.png)] sm:bg-[url(/images/hero-bg-final.png)] bg-cover bg-no-repeat w-dvw min-h-dvh py-8 lg:py-10 px-5 lg:px-32 flex flex-col items-center text-center">
       <div className='flex flex-col justify-center my-auto'>
       <div className='flex flex-col justify-center items-center'>

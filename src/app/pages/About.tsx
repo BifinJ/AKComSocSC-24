@@ -3,7 +3,7 @@ import SectionHeading from "../components/SectionHeading";
 
 export default function About() {
   return (
-    <section className="bg-c1 w-dvw min-h-dvh py-8 lg:py-24 px-5 lg:px-32 flex flex-col items-center justify-center text-center">
+    <section id="About" className="bg-c1 w-dvw min-h-dvh py-8 lg:py-24 px-5 lg:px-32 flex flex-col items-center justify-center text-center">
       <SectionHeading heading="About Us"/>
       <p className=" text-cwhite font-open text-sm md:text-base font-normal mt-8 text-justify ">
       AKComSocSC, flagship event of IEEE ComSoc Kerala Chapter, offers a memorable experience for students, researchers, and industry professionals. 

@@ -4,7 +4,7 @@ import SubHeading from "../components/SubHeading";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-c1 flex items-center justify-center py-12 px-6 lg:px-24 xl:px-48">
+    <div id="Contact" className="min-h-screen bg-c1 flex items-center justify-center py-12 px-6 lg:px-24 xl:px-48">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-24 w-full md:w-80%">
         <div className="w-full md:w-1/2  p-5 flex flex-col items-center gap-3">
           <SubHeading heading="LOCATION" />

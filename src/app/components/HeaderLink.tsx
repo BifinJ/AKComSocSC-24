@@ -7,7 +7,7 @@ export default function HeaderLink({
 }) {
   return (
     <p className="font-light font-futura text-base text-coffwhite hover:text-c5 cursor-pointer transition-all duration-300 ease-in-out">
-      <a href="/" onClick={onClick}>
+      <a href={`#${link}`} onClick={onClick}>
         {link}
       </a>
     </p>

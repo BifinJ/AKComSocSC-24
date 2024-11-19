@@ -14,7 +14,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About IEEE ComSoc KC",
-            content: "The IEEE Communications Society(ComSoc) is a leading global community dedicated to advancing communications and networking technology. With a focus on fostering research, innovation, and collaboration, IEEE ComSoc KC connects engineers, researchers, and industry professionals across various fields of communication. IEEE ComSoc KC keeps members at the forefront of wireless, networking, IoT, and data science advancements."
+            content: "The IEEE Communications Society (ComSoc) is a global community advancing communications and networking technology. Focusing on fostering research, innovation, and collaboration, IEEE ComSoc KC connects engineers, researchers, and industry professionals across communication fields. IEEE ComSoc KC keeps members at the forefront of wireless, networking, IoT, and data science advancements."
         },
     ]
     return (
