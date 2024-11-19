@@ -4,7 +4,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About MACE",
-            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC."
+            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC'24."
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
@@ -13,8 +13,8 @@ export default function AboutCard() {
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
-            title: "About ComSocKC",
-            content: "The IEEE Communications Society (ComSoc) is a leading global community dedicated to advancing communications and networking technology. With a focus on fostering research, innovation, and collaboration, IEEE ComSoc connects engineers, researchers, and industry professionals across various fields of communication. IEEE ComSoc keeps members at the forefront of wireless, networking, IoT, and data science advancements."
+            title: "About IEEE ComSoc KC",
+            content: "The IEEE Communications Society(ComSoc) is a leading global community dedicated to advancing communications and networking technology. With a focus on fostering research, innovation, and collaboration, IEEE ComSoc KC connects engineers, researchers, and industry professionals across various fields of communication. IEEE ComSoc KC keeps members at the forefront of wireless, networking, IoT, and data science advancements."
         },
     ]
     return (
