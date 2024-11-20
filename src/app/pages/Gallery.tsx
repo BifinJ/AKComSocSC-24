@@ -68,7 +68,7 @@ export default function GallerySection() {
               </div>
               <div className="col-span-5 w-full h-full flex justify-center items-center flex-col bg-gradient-to-b from-[#7DA0CA] via-[#6991BF] to-[#5483B3]">
                 <SubHeading heading="Gallery" className="!text-c2 text-xl md:text-4xl sm:text-3xl xs:text-2xl" />
-                <p className="text-white uppercase font-bold">AKComSocSC'23: A Look Back.</p>
+                <p className="text-white uppercase font-bold">AKComSocSC&apos;23: A Look Back.</p>
               </div>
             </div>
           </div>
