@@ -80,7 +80,7 @@ export default function Contact() {
               ></textarea>
             </div>
             <div className="flex justify-center">
-              <RegisterButton className=" bg-c1" text="Submit" />
+              <RegisterButton href="/" className=" bg-c1" text="Submit" />
             </div>
           </form>
         </div>
