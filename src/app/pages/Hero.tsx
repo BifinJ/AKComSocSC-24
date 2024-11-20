@@ -3,6 +3,7 @@ import Image from 'next/image'
 import clock from '../../../public/images/clock-icon.png'
 import location from '../../../public/images/location-icon.png'
 import { useEffect, useState } from 'react'
+import RegisterButton from '../components/RegisterButton'
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -71,8 +72,8 @@ const Hero = () => {
             <Image alt='location-icon' src={location} className='size-5 sm:size-6 md:size-7 mr-1 sm:mr-3'/>
             <p className="text-basis sm:text-xl lg:text-2xl font-semibold text-coffwhite">MACE, Kothamangalam</p>
           </div>
+          <RegisterButton className='mt-2 md:mt-5' text="Register" />
         </div>
-
         <div className='flex items-center justify-center gap-x-3 sm:gap-x-4 md:gap-x-6 mt-10 lg:mt-16'>
         {['DAYS', 'HOURS', 'MINUTES', 'SECONDS'].map((label) => (
             <div key={label} className="flex flex-col">
