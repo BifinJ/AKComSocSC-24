@@ -9,7 +9,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About IEEE",
-            content: "IEEE is the world’s largest technical professional organization advancing technology for humanity's benefit. IEEE provides access to industry-leading publications, conferences, and standards to keep members on the cutting edge. With over 400,000 members in 160+ countries, IEEE fosters innovation, collaboration, and technological excellence, empowering professionals and students to turn ideas into impact."
+            content: "IEEE (Institute of Electrical and Electronics Engineers) is the world’s largest technical professional organization advancing technology for humanity's benefit. IEEE provides access to industry-leading publications, conferences, and standards to keep members on the cutting edge. With over 400,000 members in 160+ countries, IEEE fosters innovation, collaboration, and technological excellence, empowering professionals and students to turn ideas into impact. "
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
@@ -22,7 +22,7 @@ export default function AboutCard() {
             {cards.map((card, index) => (
             <div
                 key={index}
-                className={`relative flex flex-col gap-1 items-center p-2 md:p-4 w-full md:w-[520px] h-80 xs:h-72 md:h-[22rem] lg:h-[17rem] ${
+                className={`relative flex flex-col gap-1 items-center p-2 md:p-4 w-full md:w-[530px] h-80 xs:h-72 md:h-[25rem] lg:h-[20rem] ${
                 index === 1
                     ? "bg-[url('/images/about-card-bg.png')] bg-cover bg-center scale-100 md:scale-110 transform transition-transform duration-300 z-30 text-c1"
                     : "bg-c2 z-20 text-c5"
