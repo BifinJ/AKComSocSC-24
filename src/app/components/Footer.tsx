@@ -19,7 +19,7 @@ export default function Footer() {
             Hanna Elza John: <a href="tel:+918921931121" className="hover:underline">+91 8921931121</a>
           </p>
           <p className="font-open text-sm md:text-base font-normal mt-1">
-            Silda Sholly: <a href="tel:+918921931121" className="hover:underline">+91 8078313509</a>
+            Silda Sholly: <a href="tel:+918078313509" className="hover:underline">+91 8078313509</a>
           </p>
         </div>
       </div>
