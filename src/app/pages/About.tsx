@@ -16,7 +16,7 @@ export default function About() {
             <h3 className=" font-bold text-lg md:text-xl uppercase text-center text-c4">VISION</h3>
             <h5 className=" font-bold text-base md:text-lg capitalize text-c4">Shaping a Connected and Resilient Future</h5>
           </div>
-          <p className=" font-normal text-sm md:text-lg text-justify pb-0 md:pb-6">To empower the next generation of innovators in communication technology by fostering a culture of creative exploration and knowledge-sharing. Through this conclave, we aim to ignite curiosity, inspire innovation, and cultivate leaders who transform ideas into groundbreaking solutions that serve humanity in critical times and beyond. By integrating advanced technologies into disaster management, the goal is to enhance global safety and connectivity, ensuring communities and critical infrastructures are supported by robust communication systems in any situation.</p>
+          <p className=" font-normal text-sm md:text-lg text-justify pb-0 md:pb-12">To empower the next generation of innovators in communication technology by fostering a culture of creative exploration and knowledge-sharing. Through this conclave, we aim to ignite curiosity, inspire innovation, and cultivate leaders who transform ideas into groundbreaking solutions that serve humanity in critical times and beyond. By integrating advanced technologies into disaster management, the goal is to enhance global safety and connectivity, ensuring communities and critical infrastructures are supported by robust communication systems in any situation.</p>
         </div>
         <div className=" hidden md:block w-[2px] h-4/5 bg-c4"></div>
         <div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-between p-2 md:p-5 pl-0 md:pl-7">
@@ -24,7 +24,7 @@ export default function About() {
             <h3 className=" font-bold text-lg md:text-xl uppercase text-center text-c4">MISSION</h3>
             <h5 className=" font-bold text-base md:text-lg capitalize text-c4">Empowering Innovation and Resilience in Communication Technology</h5>
           </div>
-          <p className=" font-normal text-sm md:text-lg text-justify">The mission of the All Kerala Communications Society Student Conclave (AKComSocSC) is to inspire and empower students to innovate and contribute to the ever-evolving field of communication technology. The conclave fosters creativity, promotes awareness of cybersecurity challenges, and emphasizes the development of resilient communication systems for disaster management and emergencies. By highlighting the importance of modern and alternative communication tools, AKComSocSC aims to equip students with the skills and knowledge needed to shape a secure, connected, and technologically advanced future.</p>
+          <p className=" font-normal text-sm md:text-lg text-justify md:pb-6">The mission of the All Kerala Communications Society Student Conclave (AKComSocSC) is to inspire and empower students to innovate and contribute to the ever-evolving field of communication technology. The conclave fosters creativity, promotes awareness of cybersecurity challenges, and emphasizes the development of resilient communication systems for disaster management and emergencies. By highlighting the importance of modern and alternative communication tools, AKComSocSC aims to equip students with the skills and knowledge needed to shape a secure, connected, and technologically advanced future.</p>
         </div>
       </div>
       <AboutCard />

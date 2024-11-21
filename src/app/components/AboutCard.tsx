@@ -4,7 +4,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About MACE",
-            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC'24."
+            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC'24. The college's serene campus, combined with its commitment to excellence, creates a conducive environment for students to thrive and reach their full potential."
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
@@ -14,7 +14,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About IEEE ComSoc KC",
-            content: "The IEEE Communications Society (ComSoc) is a global community advancing communications and networking technology. Focusing on fostering research, innovation, and collaboration, IEEE ComSoc KC connects engineers, researchers, and industry professionals across communication fields. IEEE ComSoc KC keeps members at the forefront of wireless, networking, IoT, and data science advancements."
+            content: "The IEEE Communications Society (ComSoc) is a global community driving advancements in communications and networking technology. This year, IEEE ComSoc Kerala Chapter proudly celebrates 20 years of fostering research, innovation, and collaboration. It connects engineers, researchers, and industry professionals, keeping its members at the forefront of developments in wireless, networking, IoT, and data science. Over the years, its efforts have significantly contributed to technological progress and improving the quality of life for humanity."
         },
     ]
     return (
