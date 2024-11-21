@@ -16,17 +16,17 @@ export default function Header() {
 
       {/* Links for larger screens */}
       <nav className=" w-1/2 md:w-3/5 hidden md:flex items-center justify-between gap-4">
-        <HeaderLink link="Hero" />
+        <HeaderLink link="Home" />
         <HeaderLink link="About" />
         <HeaderLink link="Sponsors" />
         <HeaderLink link="Gallery" />
         <HeaderLink link="Contact" />
-        <RegisterButton href="/" text="Register" />
+        <RegisterButton href="/" text="Register" className=" pointer-events-none" />
       </nav>
 
       {/* Register button and hamburger icon for mobile */}
       <div className=" flex flex-row items-center justify-center gap-3">
-        <RegisterButton href="/" text="Register" className="md:hidden block" />
+        <RegisterButton href="/" text="Register" className="md:hidden block pointer-events-none" />
         <div className="md:hidden text-2xl">
           {open ? (
             <MdClose
@@ -46,8 +46,8 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="absolute top-20 left-0 w-full bg-c1 flex flex-col items-center gap-4 py-4 md:hidden">
-          <HeaderLink link="Hero" onClick={() => setOpen(false)} />
+        <nav className="absolute top-16 left-0 w-full bg-c1 flex flex-col items-center gap-4 py-4 md:hidden">
+          <HeaderLink link="Home" onClick={() => setOpen(false)} />
           <HeaderLink link="About" onClick={() => setOpen(false)} />
           <HeaderLink link="Schedule" onClick={() => setOpen(false)} />
           <HeaderLink link="Gallery" onClick={() => setOpen(false)} />

@@ -22,7 +22,7 @@ export default function AboutCard() {
             {cards.map((card, index) => (
             <div
                 key={index}
-                className={`relative flex flex-col gap-1 items-center p-2 md:p-4 w-full md:w-[520px] h-72 xs:h-64 md:h-[22rem] lg:h-64 ${
+                className={`relative flex flex-col gap-1 items-center p-2 md:p-4 w-full md:w-[520px] h-72 xs:h-64 md:h-[22rem] lg:h-[17rem] ${
                 index === 1
                     ? "bg-[url('/images/about-card-bg.png')] bg-cover bg-center scale-100 md:scale-110 transform transition-transform duration-300 z-30 text-c1"
                     : "bg-c2 z-20 text-c5"

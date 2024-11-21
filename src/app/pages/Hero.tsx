@@ -50,16 +50,17 @@ const Hero = () => {
  
   return (
     <section
-    id="Hero"
+    id="Home"
     className="font-futura bg-[url(/images/heromob5.png)] sm:bg-[url(/images/hero-bg-final.png)] bg-cover bg-no-repeat w-dvw min-h-dvh py-8 lg:py-10 px-5 lg:px-32 flex flex-col items-center text-center">
       <div className='flex flex-col justify-center my-auto'>
       <div className='flex flex-col justify-center items-center'>
-          <h1 className="font-bold text-4xl sm:text-5xl lg:text-7xl text-c5 ">
-            AKComSocSC
-          </h1>
-          <h2 className="text-coffwhite text-center text-basis lg:text-xl font-bold mt-2">
-            All Kerala Communications Society Student Conclave 2024
+          <h2 className="text-coffwhite text-center text-basis text-sm md:text-lg lg:text-xl font-semibold pb-2 mt-2 uppercase">
+            IEEE ComSoc Kerala Chapter Presents
           </h2>
+          <img src="/images/AKComSocSC.png" alt="" className='mt-2 w-4/5 md:w-1/2 lg:w-2/5' />
+          {/* <h2 className="text-coffwhite text-center text-basis lg:text-xl font-bold mt-2">
+            All Kerala Communications Society Student Conclave 2024
+          </h2> */}
        </div>
       
         <div className="flex flex-col items-center justify-center px-5 py-6 mt-10  border-white rounded-3xl md:px-8 sm:py-6 lg:mt-16">
