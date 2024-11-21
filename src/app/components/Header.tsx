@@ -49,7 +49,7 @@ export default function Header() {
         <nav className="absolute top-16 left-0 w-full bg-c1 flex flex-col items-center gap-4 py-4 md:hidden">
           <HeaderLink link="Home" onClick={() => setOpen(false)} />
           <HeaderLink link="About" onClick={() => setOpen(false)} />
-          <HeaderLink link="Schedule" onClick={() => setOpen(false)} />
+          <HeaderLink link="Sponsors" onClick={() => setOpen(false)} />
           <HeaderLink link="Gallery" onClick={() => setOpen(false)} />
           <HeaderLink link="Contact" onClick={() => setOpen(false)} />
         </nav>
