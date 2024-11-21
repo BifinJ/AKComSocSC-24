@@ -57,7 +57,7 @@ const Hero = () => {
           <h2 className="text-coffwhite text-center text-basis text-sm md:text-lg lg:text-xl font-semibold pb-2 mt-2 uppercase">
             IEEE ComSoc Kerala Chapter Presents
           </h2>
-          <img src="/images/AKComSocSC.png" alt="" className='mt-2 w-4/5 md:w-1/2 lg:w-2/5' />
+          <img src="/images/akcomsoc_blue.svg" alt="" className='mt-2 w-4/5 md:w-1/2 lg:w-2/5' />
           {/* <h2 className="text-coffwhite text-center text-basis lg:text-xl font-bold mt-2">
             All Kerala Communications Society Student Conclave 2024
           </h2> */}
