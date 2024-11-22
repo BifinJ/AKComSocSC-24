@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="z-[9999] sticky top-0 left-0  flex items-center justify-between px-4 py-3 bg-c1 text-coffwhite">
       <div className=" w-1/2 md:w-2/5 text-xl font-extrabold">
-        <img src="/images/AKComSocSC.png" alt="" className=" w-2/3 md:w-1/3" />
+        <img src="/images/AKComSocSC_.webp" alt="" className=" w-2/3 md:w-1/3" />
       </div>
 
       {/* Links for larger screens */}
