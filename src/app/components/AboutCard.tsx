@@ -4,7 +4,7 @@ export default function AboutCard() {
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
             title: "About MACE",
-            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, Kerala, India, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC. The college's serene campus and commitment to excellence create an environment where students can thrive.  Adding to its legacy, the IEEE MACE SB proudly celebrates 35 years of inspiring innovation and shaping future leaders in the field of engineering and technology."
+            content: "MACE Kothamangalam , a premier educational institution nestled in the picturesque town of Kothamangalam, Kerala, India, offers a vibrant and enriching learning experience. With a rich academic heritage, state-of-the-art infrastructure, experienced faculty, and strong industry connections, MACE Kothamangalam is the ideal host for AKComSocSC. Adding to its legacy, the IEEE MACE SB proudly celebrates 35 years of inspiring innovation and shaping future leaders in the field of engineering and technology."
         },
         {
             icon: "https://img.icons8.com/ios-glyphs/30/multiple-messages.png",
