@@ -1,7 +1,7 @@
 "use client";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-import RegisterButton from "./RegisterButton";
+/* import RegisterButton from "./RegisterButton"; */
 import HeaderLink from "./HeaderLink";
 import { useState } from "react";
 
@@ -21,12 +21,12 @@ export default function Header() {
         <HeaderLink link="Sponsors" />
         <HeaderLink link="Gallery" />
         <HeaderLink link="Contact" />
-        <RegisterButton href="/" text="Register" className=" pointer-events-none" />
+        {/* <RegisterButton href="/" text="Register" className=" pointer-events-none" /> */}
       </nav>
 
       {/* Register button and hamburger icon for mobile */}
       <div className=" flex flex-row items-center justify-center gap-3">
-        <RegisterButton href="/" text="Register" className="md:hidden block pointer-events-none" />
+        {/* <RegisterButton href="/" text="Register" className="md:hidden block pointer-events-none" /> */}
         <div className="md:hidden text-2xl">
           {open ? (
             <MdClose
