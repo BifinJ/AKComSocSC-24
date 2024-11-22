@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <section
     id="Home"
-    className="font-futura bg-[url(/images/heromob5.png)] sm:bg-[url(/images/hero-bg-final.png)] bg-cover bg-no-repeat w-dvw min-h-dvh py-8 lg:py-10 px-5 lg:px-32 flex flex-col items-center text-center">
+    className="font-futura bg-[url(/images/heromob.png)] sm:bg-[url(/images/hero-bg-final.png)] bg-cover bg-no-repeat w-dvw min-h-dvh py-8 lg:py-10 px-5 lg:px-32 flex flex-col items-center text-center">
       <div className='flex flex-col justify-center my-auto'>
       <div className='flex flex-col justify-center items-center'>
           <h2 className="text-coffwhite text-center text-basis text-sm md:text-lg lg:text-xl font-semibold pb-2 mt-2 uppercase">
