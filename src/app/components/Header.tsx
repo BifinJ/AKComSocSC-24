@@ -27,7 +27,7 @@ export default function Header() {
         <RegisterButton
           href="https://makemypass.com/akcomsocsc24"
           text="Register"
-          className=" pointer-events-none"
+          className=""
         />
       </nav>
       {/* Register button and hamburger icon for mobile */}
@@ -35,7 +35,7 @@ export default function Header() {
         <RegisterButton
           href="https://makemypass.com/akcomsocsc24"
           text="Register"
-          className="md:hidden block pointer-events-none"
+          className="md:hidden block"
         />
         <div className="md:hidden text-2xl">
           {open ? (
