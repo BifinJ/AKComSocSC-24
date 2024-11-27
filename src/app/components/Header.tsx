@@ -30,7 +30,7 @@ export default function Header() {
           className=" pointer-events-none"
         />
       </nav>
-      {/* Register button and hamburger icon for mobile */}a
+      {/* Register button and hamburger icon for mobile */}
       <div className=" flex flex-row items-center justify-center gap-3">
         <RegisterButton
           href="https://makemypass.com/akcomsocsc24"
