@@ -11,16 +11,16 @@ export default function Registration() {
           <SectionHeading heading="Grab your Tickets" />
         </div>
         <div className="relative flex flex-col md:flex-row items-center justify-center">
-          <Ticket heading="IEEE Member" cost={400} link="www" />
-          <Ticket heading="IEEE Member" cost={400} link="www" />
-          <Ticket heading="IEEE Member" cost={400} link="www" />
+          <Ticket heading="IEEE Member" cost={899} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="Non IEEE Member" cost={999} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="IEEE ComSoc Member" cost={799} link="https://makemypass.com/akcomsocsc24" />
 
           {/* Coming Soon Overlay */}
-          <div className="absolute inset-0 bg-c1 bg-opacity-30 backdrop-blur-md z-40 flex items-center justify-center">
+          {/* <div className="absolute inset-0 bg-c1 bg-opacity-30 backdrop-blur-md z-40 flex items-center justify-center">
             <h4 className=" text-4xl lg:text-6xl font-bold text-white drop-shadow-lg animate-pulse">
               COMING SOON
             </h4>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
