@@ -6,6 +6,7 @@ import Hero from "./pages/Hero";
 import Registration from "./pages/Registration";
 import GallerySection from "./pages/Gallery";
 import Sponsors from "./pages/Sponsors";
+//import Workshop from "./pages/Workshop";
 /* import Preloader from "./components/Preloader"; */
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <About />
       <Sponsors />
+      {/*<Workshop />*/}
       {/* <Timeline /> */}
       <GallerySection />
       <Registration />
