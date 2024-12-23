@@ -11,7 +11,7 @@ const Hero = () => {
   const formatNumber = (num: number) => (num < 10 ? `0${num}` : num);
 
   useEffect(() => {
-    const targetDate = new Date('2024-12-20T09:00:00');
+    const targetDate = new Date('2025-01-25T09:00:00');
 
     const calculateTimeLeft = () => {
       const now = new Date();
@@ -66,7 +66,7 @@ const Hero = () => {
         <div className="flex flex-col items-center justify-center px-5 py-6 mt-10  border-white rounded-3xl md:px-8 sm:py-6 lg:mt-16">
           <div className='flex items-center'>
             <Image alt='clock-icon' src={clock} className='size-5 sm:size-6 md:size-7 mr-1 sm:mr-3'/>
-            <p className="text-basis sm:text-xl md:text-2xl font-semibold text-coffwhite"><s>December 20 - 21, 2024</s> Postponed</p>
+            <p className="text-basis sm:text-xl md:text-2xl font-semibold text-coffwhite">January 25 - 26, 2025</p>
           </div>
  
           <div className='flex items-center mt-2 md:mt-5'>
