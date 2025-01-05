@@ -1,12 +1,19 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 
 interface TicketProps {
   heading: string;
+  image: string;
   cost: number;
   link: string;
 }
 
-const Ticket: React.FC<TicketProps> = ({ heading, cost, link }) => {
+const Ticket: React.FC<TicketProps> = ({ heading, image, cost, link }) => {
+
+  useEffect(() => {
+    console.log(link)
+  }, [])
+
   return (
     <div className="flex-col items-center justify-center pt-8">
       <div className="flex justify-center items-center gap-x-4">
@@ -15,10 +22,13 @@ const Ticket: React.FC<TicketProps> = ({ heading, cost, link }) => {
           {heading}
         </div>
       </div>
-      <div className="flex bg-[url('/images/ticket.png')] p-32 bg-center font-bold bg-contain">
-        <p className="text-[40px] rotate-[-21deg] text-slate-200">₹{cost}</p>
+      <div 
+        className="flex p-32 bg-center font-bold bg-contain"
+        style={{ backgroundImage: `url(${image})` }}
+      >
+        <p className="text-[40px] translate-x-6 -translate-y-4 rotate-[-21deg] text-slate-200">₹{cost}</p>
       </div>
-      <div className="w-full flex items-center justify-center">
+      {/* <div className="w-full flex items-center justify-center">
         <a
           href={link}
           target="_blank"
@@ -27,7 +37,7 @@ const Ticket: React.FC<TicketProps> = ({ heading, cost, link }) => {
         >
           Register
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

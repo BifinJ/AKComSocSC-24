@@ -7,21 +7,57 @@ export default function Registration() {
       <div className="absolute z-[1] inset-0 bg-[#02102489]"></div>
 
       <div className="relative z-[10] flex-col items-center justify-center">
-        <div className="pb-16">
+        <div className="pb-8">
           <SectionHeading heading="Grab your Tickets" />
         </div>
+        <h4 className="mt-4 font-futura font-bold text-c5 text-lg md:text-3xl sm:text-2xl xs:text-xl">Solo Tickets</h4>
         <div className="relative flex flex-col md:flex-row items-center justify-center">
-          <Ticket heading="IEEE Member" cost={899} link="https://makemypass.com/akcomsocsc24" />
-          <Ticket heading="Non IEEE Member" cost={999} link="https://makemypass.com/akcomsocsc24" />
-          <Ticket heading="IEEE ComSoc Member" cost={799} link="https://makemypass.com/akcomsocsc24" />
-
-          {/* Coming Soon Overlay */}
-          {/* <div className="absolute inset-0 bg-c1 bg-opacity-30 backdrop-blur-md z-40 flex items-center justify-center">
-            <h4 className=" text-4xl lg:text-6xl font-bold text-white drop-shadow-lg animate-pulse">
-              COMING SOON
-            </h4>
-          </div> */}
+          <Ticket heading="IEEE Member" image="/images/ticket.png" cost={999} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="Non IEEE Member" image="/images/ticket.png" cost={1099} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="IEEE ComSoc Member" image="/images/ticket.png" cost={899} link="https://makemypass.com/akcomsocsc24" />
         </div>
+        <div className="w-full flex items-center justify-center">
+        <a
+          href="https://makemypass.com/akcomsocsc24"
+          target="_blank"
+          className="bg-custom-gradient font-semibold text-slate-950 px-10 py-1 pb-2 rounded-full"
+          rel="noopener noreferrer"
+        >
+          Register
+        </a>
+      </div>
+        <h4 className="mt-4 font-futura font-bold text-c5 text-lg md:text-3xl sm:text-2xl xs:text-xl">3-Combo Tickets</h4>
+        <div className="relative flex flex-col md:flex-row items-center justify-center">
+          <Ticket heading="IEEE Members" image="/images/combo3.png" cost={2697} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="Non IEEE Members" image="/images/combo3.png" cost={2997} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="IEEE ComSoc Members" image="/images/combo3.png" cost={2397} link="https://makemypass.com/akcomsocsc24" />
+        </div>
+        <div className="w-full flex items-center justify-center">
+        <a
+          href="https://makemypass.com/akcomsocsc24"
+          target="_blank"
+          className="bg-custom-gradient font-semibold text-slate-950 px-10 py-1 pb-2 rounded-full"
+          rel="noopener noreferrer"
+        >
+          Register
+        </a>
+      </div>
+        <h4 className="mt-4 font-futura font-bold text-c5 text-lg md:text-3xl sm:text-2xl xs:text-xl">5-Combo Tickets</h4>
+        <div className="relative flex flex-col md:flex-row items-center justify-center">
+          <Ticket heading="IEEE Members" image="/images/combo5.png" cost={4245} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="Non IEEE Members" image="/images/combo5.png" cost={4745} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="IEEE ComSoc Members" image="/images/combo5.png" cost={3745} link="https://makemypass.com/akcomsocsc24" />
+        </div>
+        <div className="w-full flex items-center justify-center">
+        <a
+          href="https://makemypass.com/akcomsocsc24"
+          target="_blank"
+          className="bg-custom-gradient font-semibold text-slate-950 px-10 py-1 pb-2 rounded-full"
+          rel="noopener noreferrer"
+        >
+          Register
+        </a>
+      </div>
       </div>
     </div>
   );
