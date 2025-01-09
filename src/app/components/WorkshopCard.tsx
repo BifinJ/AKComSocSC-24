@@ -23,10 +23,9 @@ export default function WorkshopCard({ WorkshopName, SpeakerImage }: WorkshopCar
       <div className="grid grid-cols-2 gap-4">
         <div>
           <p className="text-sm text-c2 leading-relaxed pl-4 py-4 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          The workshop, led by Mr. Shinos, delves into the practical applications of Field-Programmable Gate Arrays (FPGAs) within the realms of Very Large-Scale Integration (VLSI) and the Internet of Things (IoT) in embedded systems. 
+          Participants actively engage with FPGA-based designs and IoT integration, gaining valuable hands-on experience. 
+          The workshop explores the cutting-edge trends and technologies shaping these dynamic fields.
           </p>
         </div>
 

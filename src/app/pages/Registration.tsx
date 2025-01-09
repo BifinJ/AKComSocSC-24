@@ -11,10 +11,10 @@ export default function Registration() {
           <SectionHeading heading="Grab your Tickets" />
         </div>
         <h4 className="mt-4 font-futura font-bold text-c5 text-lg md:text-3xl sm:text-2xl xs:text-xl">Solo Tickets</h4>
-        <div className="relative flex flex-col md:flex-row items-center justify-center">
-          <Ticket heading="IEEE Member" image="/images/ticket.png" cost={999} link="https://makemypass.com/akcomsocsc24" />
-          <Ticket heading="Non IEEE Member" image="/images/ticket.png" cost={1099} link="https://makemypass.com/akcomsocsc24" />
-          <Ticket heading="IEEE ComSoc Member" image="/images/ticket.png" cost={899} link="https://makemypass.com/akcomsocsc24" />
+        <div className="relative  flex flex-col md:flex-row items-center justify-center">
+          <Ticket heading="IEEE Member" image="/images/ticket2.png" cost={999} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="Non IEEE Member" image="/images/ticket2.png" cost={1099} link="https://makemypass.com/akcomsocsc24" />
+          <Ticket heading="IEEE ComSoc Member" image="/images/ticket2.png" cost={899} link="https://makemypass.com/akcomsocsc24" />
         </div>
         <div className="w-full flex items-center justify-center">
         <a
